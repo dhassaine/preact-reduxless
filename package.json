@@ -1,0 +1,11 @@
+{
+  "name": "preact-reduxless",
+  "version": "4.0.0",
+  "description": "Preact bindings for Reduxless",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Djamel Hassaine <dhassaine@gmail.com> (https://github.com/dhassaine)",
+  "license": "MIT"
+}
