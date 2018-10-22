@@ -5,7 +5,7 @@ import minify from "rollup-plugin-babel-minify";
 import typescript from "rollup-plugin-typescript2";
 
 const base = {
-  external: ["preact"]
+  external: ["preact", "@reduxless/core"]
 };
 
 const plugins = [

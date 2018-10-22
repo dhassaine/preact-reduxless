@@ -1,21 +1,6 @@
-import Wrapper from "@reduxless/core";
+import { makeComponents } from "@reduxless/core";
+import * as preact from "preact";
 
-const {
-  Container,
-  mapper,
-  Link,
-  Match,
-  createStore,
-  enableHistory,
-  selectorMemoizer
-} = Wrapper(require("preact"));
+const { Container, mapper, Link, Match } = makeComponents(preact);
 
-export {
-  Container,
-  mapper,
-  Link,
-  Match,
-  createStore,
-  enableHistory,
-  selectorMemoizer
-};
+export { Container, mapper, Link, Match };
