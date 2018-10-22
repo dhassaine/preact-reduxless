@@ -1,5 +1,5 @@
 {
-  "name": "preact-reduxless",
+  "name": "@reduxless/preact",
   "version": "4.0.0",
   "description": "Preact bindings for Reduxless",
   "main": "dist/index.js",
